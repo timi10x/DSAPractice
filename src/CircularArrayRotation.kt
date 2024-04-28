@@ -63,7 +63,7 @@ fun reverseArray(arr: Array<Int>, start: Int, end: Int) {
 
 fun main() {
     val arr = arrayOf(3, 4, 5)
-    val start = 3
+    val start = 9
     val end = arrayOf(2, 3) //2 & 3, because string format won't count from index 0
     print(circularArrayRotation(arr, start, end).joinToString(" "))
 }
